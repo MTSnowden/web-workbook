@@ -1,53 +1,106 @@
 body {
     background-image: url("../img/airline.jpg");
     margin: 0;
-}
-
-header {
+    background-size:100%;
+    }
+    
+    header {
     border: 2px solid #AFBAC3;
     background-color: #213A53;
     width: 100%;
-    display: flex
-}
-
-.topnav {
+    display: flex;
+    }
+    
+    .topnav {
     margin: 0 auto;
     list-style-type: none;
     float: right;
     padding: 20px;
-}
-
-.companylogo {
-    margin-left: 50px;
     
-}
-
-a {
+    }
+    
+    a {
     color: white;
     text-decoration: none;
-}
-
-.container {
+    }
+    
+    .container {
     width: 450px;
     height: 450px;
-    margin-top: 120px;
-    margin-right: 20px;
-    margin-bottom: 20px;
-    margin-left: 70px;
+    margin: 120px 0px 0px 70px;
     background-color: #123754;
-}
-/* 
-.planeicon {
+    position: absolute;
+    }
+    
+    .planeicon {
     width: 33%;
-    float: left;
     padding: 0;
-    background-color: #0263B7;
-
-}
-
-.hotelicon {
+    background-color: #008D80; 
+    float:left;
+    }
+    
+    .hotelicon {
     width: 33%;
-    float: left;
     padding: 0;
     background-color: #008D80;
-} */
+    float: left;
+    } 
+    
+    .caricon {
+    width: 33%;
+    padding: 0;
+    background-color: #008D80;
+    float: left;
+    }
+    
+    .container img {
+    display: block;
+    margin: 0 auto;
+    }
+    
+    .planeicon:hover {
+    background-color: #0263B7;
+    }
+    
+    .hotelicon:hover {
+    background-color: #0263B7;
+    }
+    
+    .caricon:hover {
+    background-color: #0263B7;
+    }
+
+    #depart {
+        padding: 15px;
+        margin: 20px;
+        border-radius: 5px;
+        border: 2px solid white;
+        background-color: #123754;
+             
+    }
+
+    #date {
+        padding: 15px;
+        margin: 20px;
+        border-radius: 5px;
+    }
+
+    #number {
+        padding: 15px;
+        width: 10px;
+        
+    }
+    #arrive {
+        padding: 15px;
+        margin: 20px;
+        border-radius: 5px;
+        border: 2px solid white;
+        background-color: #123754;
+    }
+
+    .row4 {
+        background-color: #0263B7;
+        padding: 15px;
+        margin: 20px;
+        text-align: center;
+    }

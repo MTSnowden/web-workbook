@@ -1,37 +1,60 @@
 <!DOCTYPE html>
 <html>
+<!DOCTYPE HTML> 
 <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>UX Atlantic</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="./css/style.css" />
-    <script src="main.js"></script>
+<meta charset="utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>UX Atlantic</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" media="screen" href="./css/style.css" />
+<script src="main.js"></script>
+<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
 </head>
 <body>
-    <!-- DREAM TEAM- Vinoth Kumar, Michael Snowden & Heather Barr-->
-    <!-- Heather on the header-->
-    <header>
-        <img class="companylogo" src="./img/logo.png">
+<!--Vinoth Kumar, Michael Snowden & Heather Barr-->
+<header>
+<img src="./img/logo.png">
+<div class="topnav">
+<a href="index.html"><img src="img/home-icon.png">Home</a>
+<a href="index.html"><img src="img/deal-icon.png">Travel Deals</a>
+<a href="index.html"><img src="img/schedule-icon.png">Flight Schedule</a>
+<a href="index.html"><img src="img/login-icon.png">Register/Login</a>
+</div>
+</header>
+<!-- Heather Stops -->
 
-        <div class="topnav">
-            <a href="file.here">HOME</a>
-            <a href="file.here">PLANE</a>
-            <a href="file.here">CALL</a>
-            <a href="file.here">BOOK</a>
-            <a href="file.here">WOOH</a>
+<!-- Michael -->
+
+<div class="container">
+<div class="planeicon"><img src="./img/plane-icon.png">
+</div>
+
+<div class="hotelicon"><img src="./img/hotel-icon.png">
+</div>
+
+<div class="caricon"><img src="./img/car-icon.png">
+</div>
+
+<div class="row1">
+<input type="text" id="depart" placeholder="Depart">
+<input type="text" id="arrive" placeholder="Arrive">
+</div>
+
+<div class="row2">
+<input type="date" id="date">
+<input type="date" id="date">
+</div>
+
+<div class="row3">
+       Passengers <input type="number" id="number" placeholder="1">
+        <input type="radio" id="radio">Return <input type="radio">One Way
         </div>
-           
-    </header>
-    <!-- Heather Stops -->
+<div class="row4">
+    <div>Search Flights</div>
+</div>
+</div>
+<!-- michael stop -->
 
-    <!-- Michael -->
-    <div class="container">
-        <!-- <div class="planeicon" src="./img/plane-icon.png">
-        </div>
-        <div class="hotelicon" src="./img/hotel-icon.png">
-        </div> -->
-    </div>
-
+</div>
 </body>
 </html>

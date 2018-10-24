@@ -116,16 +116,17 @@ h4 {
     display: flex;
     justify-content: flex-end;
     align-items: flex-end;
+    justify-content: space-evenly;
+    font-size: 12px;
+    padding-bottom: 10px;
 }
 
 .foot > a {
     font-family: questrial;
     text-decoration: none;
-}
-    
-#footer-links > a {
-    width: 400px;
     justify-content: space-evenly;
+    
 }
 
 /* Cant figure out how to space out the bottom links */
+/* 10/24 I FIGURED IT OUT YAYYYYYY */

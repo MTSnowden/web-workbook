@@ -1,0 +1,22 @@
+body {
+    margin: 0 auto;
+    width: 75%;
+    padding: 2%;
+    background-image: url("../img/bg.png")
+}
+
+
+.container { 
+    width: 100%;
+    margin: 25px;
+    font-family: raleway;
+}
+
+
+input {
+    
+}
+
+.star {
+    height: 100px;
+}
